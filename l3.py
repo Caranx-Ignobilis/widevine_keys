@@ -16,8 +16,8 @@ from cdm.formats import wv_proto2_pb2 as wv_proto2
 from urllib.parse import urlparse
 import logging
 # logging.basicConfig(level=logging.DEBUG)
-MDP_URL = input('\nInput MPD URL: ')
-lic_url = input('License URL: ')
+MDP_URL = input('\nInput MPD URL: https://liveanevia.mncnow.id/live/eds/VisionPrime/sa_dash_vmx/VisionPrime.mpd')
+lic_url = input('License URL: https://mrpw.ptmnc01.verspective.net/?deviceId=NmE2NGM5MTMtYjc1NS0zNGE1LTk3ZDctYzQ0OTUyMmQ5MjVk')
 # hardcoded for kinopoisk.ru
 # lic_url = 'https://widevine-proxy.ott.yandex.ru/proxy'
 responses = []
